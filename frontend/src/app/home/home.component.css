@@ -1,0 +1,14 @@
+.home{
+    box-sizing:border-box;
+    background-image: url("../../assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+.divider {
+    height: 0.2rem;
+    width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}

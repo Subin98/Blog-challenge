@@ -1,0 +1,14 @@
+<div class="container" style="background: linear-gradient(to right, #b4b1b0, #cbcaa547);">
+   <div class="row  mt-4">
+     <div class="col p-3">
+           <h1 style="color: #672737;">{{Bloglist.BlogName}}</h1>
+           <p style="color: #ad5d5c;">published on {{Bloglist.PublishedDate}}</p>
+           <p style="color: #000;"[innerHTML]=Bloglist.BlogContent></p>
+           </div>
+       
+    </div> 
+  
+   </div>
+   <script>
+     BlogList.PublishedDate = Bloglist.PublishedDate.toISOString()
+   </script>

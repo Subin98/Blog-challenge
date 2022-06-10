@@ -1,0 +1,17 @@
+
+<div class="container pt-2" style="background-color: #897f7d;">
+    <h2 style="color:#672737 ;">Comments</h2>
+    <div class="card" *ngFor="let i of comment" style="background-color: transparent;">
+       <div class="card-body row">
+                    <div class="col-1">
+                        <img src="../../assets/avatar.png">
+                    </div>
+                    <div class="col-11">
+                    <h5 class="card-title" style="color: #672737;">{{i.name}}</h5>
+                    <p class="card-text" style="color: #000;">{{i.comment}}</p>
+                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                    </div>
+        </div> 
+    </div>
+                
+</div>

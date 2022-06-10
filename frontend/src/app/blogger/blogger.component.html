@@ -1,0 +1,27 @@
+<div class="container-fluid ">
+
+  <div class="container myheader">
+    <div class="row rounded blogger my-4 p-3 shadow" style="background: linear-gradient(to right, #bdc3c7, #68251e);">
+   
+     <div class="col-lg-3 ps-lg-0 col-md-6 col-sm-3 col-6">
+       <img class="img-thumbnail rounded-circle border-primary" [src]=Blog.AuthorImage alt="Card image cap" style="background-color: #b4434e;;">
+     
+     </div>
+   
+     <div class="col-lg-2 d-flex justify-content-center flex-column">
+       <span><h2 style="color: #672737;"> {{Blog.Author}}</h2></span> 
+       </div>
+       <div class="col-lg-2 d-flex  justify-content-center flex-column">  
+      <span style="font-size: 18px;" class="text-lg-center"><b style="color: #672737; font-size: 22px;">{{Blog.Followers}}</b><br> Followers </span> 
+       </div>
+       <div class="col-lg-2 d-flex  justify-content-center flex-column">  
+         <button [class]="btnclass" (click)="follow();">{{btnvalue}}</button> 
+       </div>
+  
+   
+    </div>
+   
+   </div>
+</div>
+
+
